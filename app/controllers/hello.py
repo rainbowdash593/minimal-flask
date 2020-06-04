@@ -2,7 +2,7 @@ import os
 import logging
 from flask import Blueprint, request, jsonify
 
-TestController = Blueprint('triggers', __name__)
+TestController = Blueprint('hello', __name__)
 
 
 @TestController.route('/hello-world', methods=['GET'])
